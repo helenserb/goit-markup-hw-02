@@ -4,7 +4,7 @@
     --secondary-text-color: #757575;
     --white-text-color: #FFFFFF;
     --black-text-color: #000000;
-    --address-text-color: rgba(255, 255, 255, 0.6);
+    --contacts-text-color: rgba(255, 255, 255, 0.6);
     --main-bcg-color: #FFFFFF;
     --secondary-bcg-color: #2F303A;
     --additional-bcg-color: #F5F4FA;
@@ -79,3 +79,23 @@ body{
     color: var(--secondary-text-color);
 }
 /* Footer */
+.footer{
+    background-color: var(--secondary-bcg-color);
+}
+.dark-theme{
+    color: var(--white-text-color);
+}
+.address-link{
+    color: var(--white-text-color);
+}
+.address-link:hover,
+.address-link:focus{
+    color: var(--accent-color);
+}
+.contact-link-footer{
+    color: var(--contacts-text-color);
+}
+.contact-link-footer:hover,
+.contact-link-footer:focus{
+    color: var(--accent-color);
+}
