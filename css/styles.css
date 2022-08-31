@@ -43,3 +43,13 @@
     color: var(--accent-color);
 }
 /* Main index.html */
+.hero-section{
+    background-color: var(--secondary-bcg-color);
+}
+.hero-title{
+    color: var(--white-text-color);
+}
+.main-button{
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+}
