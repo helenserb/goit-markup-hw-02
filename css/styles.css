@@ -8,22 +8,26 @@
     --main-bcg-color: #FFFFFF;
     --secondary-bcg-color: #2F303A;
     --additional-bcg-color: #F5F4FA;
+    --btn-active: #188CE8;
 }
 body{
     background-color: var(--main-bcg-color);
 }
-/* header */
 .link{
     text-decoration: none;
 }
+.list{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+}
+/* header */
 .accent{
     color: var(--accent-color);
 }
 .light-theme{
     color: var(--black-text-color);
-}
-.list{
-    list-style: none;
 }
 .nav-link{
     color: var(--primary-text-color);
@@ -53,6 +57,10 @@ body{
 .main-button{
     color: var(--white-text-color);
     background-color: var(--accent-color);
+}
+.main-button:hover,
+.main-button:focus{
+    background-color: var(--btn-active);
 }
 /* Переваги */
 .advanteges-title{
@@ -98,4 +106,20 @@ body{
 .contact-link-footer:hover,
 .contact-link-footer:focus{
     color: var(--accent-color);
+}
+/* Main portfolio.html */
+.filter{
+    color: var(--primary-text-color);
+    background-color: var(--additional-bcg-color);
+}
+.filter:hover,
+.filter:focus{
+    color: var(--white-text-color);
+    background-color: #2196F3;
+}
+.portfolio-list-title{
+    color: var(--primary-text-color);
+}
+.portfolio-list-description{
+    color: var(--secondary-bcg-color);
 }
