@@ -21,6 +21,7 @@ body{
 }
 .link{
     text-decoration: none;
+    font-style: normal;
 }
 .list{
     list-style: none;
@@ -112,18 +113,17 @@ letter-spacing: 0.02em;
 .dark-theme{
     color: var(--white-text-color);
 }
+.address{
+line-height: 1.71;
+}
 .address-link{
     color: var(--white-text-color);
-}
-.address-link:hover,
-.address-link:focus{
-    color: var(--accent-color);
 }
 .contact-link-footer{
     color: var(--contacts-text-color);
 }
-.contact-link-footer:hover,
-.contact-link-footer:focus{
+.address:hover,
+.address:focus{
     color: var(--accent-color);
 }
 /* Main portfolio.html */
