@@ -43,6 +43,7 @@
     color: var(--accent-color);
 }
 /* Main index.html */
+/* Hero */
 .hero-section{
     background-color: var(--secondary-bcg-color);
 }
@@ -52,4 +53,14 @@
 .main-button{
     color: var(--white-text-color);
     background-color: var(--accent-color);
+}
+/* Features */
+.features-section{
+    background-color: var(--main-bcg-color);
+}
+.features-title{
+    color: var(--primary-text-color);
+}
+.features-description{
+    color: var(--secondary-text-color)
 }
