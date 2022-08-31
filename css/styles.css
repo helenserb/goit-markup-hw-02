@@ -73,10 +73,24 @@ letter-spacing: 0.02em;
 }
 .hero-title{
     color: var(--white-text-color);
+    font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 .main-button{
     color: var(--white-text-color);
     background-color: var(--accent-color);
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+ border: none;
 }
 .main-button:hover,
 .main-button:focus{
@@ -85,14 +99,21 @@ letter-spacing: 0.02em;
 /* Переваги */
 .advanteges-title{
     color: var(--primary-text-color);
+    font-weight: 700;
+line-height: 1.14;
+text-transform: uppercase;
 }
 .advanteges-description{
-    color: var(--secondary-text-color)
+    color: var(--secondary-text-color);
+    line-height: 1.71;
 }
 /* Чим займаємось */
 /* Команда */
 .section-title{
-    
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
 }
 .team-section{
     background-color: var(--additional-bcg-color);
@@ -100,11 +121,52 @@ letter-spacing: 0.02em;
 .team-list-item{
     background-color: var(--main-bcg-color);
 }
-/* .employee-name{
-    
-} */
+.employee-name{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+}
 .employee-position{
     color: var(--secondary-text-color);
+    font-size: 16px;
+line-height: 1.19px;
+text-transform: capitalize;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+/* Main portfolio.html */
+.filter{
+    color: var(--primary-text-color);
+    background-color: var(--additional-bcg-color);
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+text-align: center;
+border: none;
+}
+.filter:hover,
+.filter:focus{
+    color: var(--white-text-color);
+    background-color: #2196F3;
+}
+.portfolio-list-title{
+    font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.portfolio-list-link{
+    color: inherit;
+}
+.portfolio-list-description{
+    color: var(--secondary-text-color);
+    font-size: 16px;
+line-height: 1.88;
 }
 /* Footer */
 .footer{
@@ -125,20 +187,4 @@ line-height: 1.71;
 .address:hover,
 .address:focus{
     color: var(--accent-color);
-}
-/* Main portfolio.html */
-.filter{
-    color: var(--primary-text-color);
-    background-color: var(--additional-bcg-color);
-}
-.filter:hover,
-.filter:focus{
-    color: var(--white-text-color);
-    background-color: #2196F3;
-}
-.portfolio-list-link{
-    color: inherit;
-}
-.portfolio-list-description{
-    color: var(--secondary-text-color);
 }
